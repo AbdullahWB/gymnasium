@@ -1,0 +1,125 @@
+/* =====================
+extra small device start
+===================== */
+
+@media(max-width:575px) {
+    .navbar .navbar-brand {
+        position: static;
+    }
+    .navbar .navbar-toggler {
+        background: #fff;
+    }
+    .navbar .navbar-toggler span {
+        color: #e23e38;
+    }
+    .navbar .navbar-nav {
+        background: hsla(2, 75%, 55%, 0.8);
+    }
+    #banner .bg1 h5::after,
+    #banner .bg1 h5::before {
+        display: none;
+    }
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after {
+        display: none;
+    }
+    #banner .bg1 p::before,
+    #banner .bg1 p::after {
+        display: none;
+    }
+    #banner .banner-item {
+        padding-top: 213px;
+        padding-bottom: 90px;
+    }
+    #banner .bg1 p {
+        padding: 0 0px;
+    }
+    #about {
+        padding-top: 40px;
+    }
+    #gallery {
+        padding-top: 50px;
+    }
+    #team .team-item {
+        padding: 0 15px !important;
+        transition: all linear 0.4s;
+        -webkit-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+    }
+    #team {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    #testimonial .testimonial-slider .testimonial-item {
+        padding: 0 15px;
+    }
+    /* #funfact {
+        display: flex;
+    } */
+    #routine .routine-tab .nav-tabs .nav-item {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #routine .routine-tab .tab-content ul li {
+        width: 100%;
+    }
+    #brand .brand-slider .brand-item img {
+        width: 100% !important;
+        -webkit-box-shadow: 0px 3px 11px 3px rgba(92, 92, 92, 0.67);
+        box-shadow: 0px 3px 11px 3px rgba(92, 92, 92, 0.67);
+    }
+}
+
+
+/* =====================
+extra small device ends
+===================== */
+
+
+/* =====================
+small device start
+===================== */
+
+@media(min-width:576px) and (max-width:767px) {
+    .navbar .navbar-brand {
+        position: static;
+    }
+    .navbar .navbar-toggler {
+        background: #fff;
+    }
+    .navbar .navbar-toggler span {
+        color: #e23e38;
+    }
+    .navbar .navbar-nav {
+        background: hsla(2, 75%, 55%, 0.8);
+    }
+    #banner .bg1 h5::after,
+    #banner .bg1 h5::before {
+        display: none;
+    }
+    #banner .bg1 h4::before,
+    #banner .bg1 h4::after {
+        display: none;
+    }
+    #banner .bg1 p::before,
+    #banner .bg1 p::after {
+        display: none;
+    }
+    /* #banner .banner-item {
+        padding-top: 213px;
+        padding-bottom: 90px;
+    } */
+    #banner .bg1 p {
+        padding: 0 0px;
+    }
+    #routine .routine-tab .tab-content ul li {
+        width: 100%;
+    }
+}
+
+
+/* =====================
+small device ends
+===================== */
